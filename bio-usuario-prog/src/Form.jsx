@@ -7,7 +7,7 @@ const form = () =>{
         <div>
             <h1>Form</h1>
             <nav>
-                <Link to="/">Home</Link>
+                <Link to="/biografia_usuario-progamador/">Home</Link>
             </nav>
         </div>
     )

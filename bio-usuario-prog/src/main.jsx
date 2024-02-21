@@ -9,13 +9,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter ([
   {
-    path: "/",
+    path: "/biografia_usuario-progamador",
     element: <App/>,
     errorElement: <ErrorPage/>
   },
 
   {
-    path: "/form",
+    path: "/biografia_usuario-progamador/form",
     element: <Form/>,
     errorElement: <ErrorPage/>
   }, 
