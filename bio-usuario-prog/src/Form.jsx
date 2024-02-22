@@ -5,12 +5,14 @@ import "./Form.css"
 
 const form = () =>{
     return(
-        <div className="container">
-            <h1>Preencha o formulario abaixo</h1>
-            <h3>para receber o ebook direto no seu email</h3>
-            <nav>
-                <Link to="/biografia_usuario-progamador/">Home</Link>
-            </nav>
+        <div className="root-form">
+            <h1 className="title-form">Preencha o formulario para receber o Ebook direto no seu email</h1>
+            <div className="form-div">
+                
+                <input type="text"  placeholder="Insira seu email" className="inpt"/>
+                <input type="text" placeholder="Insira sua senha" className="inpt"/>
+                <button type="button" className="btn">Enviar</button>
+            </div>
         </div>
     )
 }

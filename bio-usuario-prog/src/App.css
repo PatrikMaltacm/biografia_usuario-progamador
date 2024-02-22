@@ -1,4 +1,16 @@
 .root{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+*{
+  background-color: #242424;
+}
+
+.root{
   display: flex;
   flex-direction: column;
   justify-content: center;
