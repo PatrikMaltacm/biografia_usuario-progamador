@@ -51,3 +51,43 @@
     padding-left: 25px;
     padding-right: 25px;
 }
+
+.popup-debug{
+    background-color: rgb(79, 103, 214);
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+    transform: translate(1600px, 100px);
+}
+
+.msg-pop{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: transparent;
+    font-size: 15px;
+}
+
+@keyframes entrando {
+	from {
+        position: relative;
+		transform: translate(1600px, 100px);
+	}
+	to {
+        position: relative;
+		transform: translate(0px, 100px);
+	}
+}
+
+@keyframes saindo {
+	from {
+        position: relative;
+		transform: translate(0px, 100px);
+	}
+	to {
+        position: relative;
+		transform: translate(1600px, 100px);
+	}
+}
+
