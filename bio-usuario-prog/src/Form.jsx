@@ -30,8 +30,9 @@ const form = () =>{
             email: email,
         }
 
-        emailjs.send("service_7wuin2a", "template_claiot6", templataParams, "4DC-ZI9NI0zsJdsgb")
+        emailjs.send("service_mfewnq1", "template_rz5318r", templataParams, "pKUMDuXrCcqPpNkvq")
         .then((response) => {
+            setErr("Enviando")
             popAnim.style.animation = 'saindo 1s ease-in-out forwards'
             console.log("Email enviado!", response.status, response.text)
             setEmail("")
