@@ -57,7 +57,7 @@
     margin-top: 10px;
     border-radius: 10px;
     position: relative;
-    transform: translate(1600px, 100px);
+    transform: translate(1600px, 50px);
 }
 
 .msg-pop{
@@ -72,11 +72,11 @@
 @keyframes entrando {
 	from {
         position: relative;
-		transform: translate(1600px, 100px);
+		transform: translate(1600px, 50px);
 	}
 	to {
         position: relative;
-		transform: translate(0px, 100px);
+		transform: translate(0px, 50px);
 	}
 }
 
